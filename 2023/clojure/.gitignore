@@ -24,9 +24,9 @@
 *.jar
 *.swp
 *~
-/checkouts
-/classes
-/target
+checkouts
+classes
+target
 repository
-/inputs/*
-!/inputs/placeholder
+inputs/*
+!inputs/placeholder
