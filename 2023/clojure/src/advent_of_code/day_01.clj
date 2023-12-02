@@ -8,7 +8,6 @@
 (defn part-1
   [input]
   (->> input
-       string/split-lines
        (map just-keep-numbers)
        (map #(str (first %) (last %)))
        (map parse-double)
@@ -47,7 +46,6 @@
 (defn part-2
   [input]
   (->> input
-       string/split-lines
        (map get-value)
        (reduce +)))
 
