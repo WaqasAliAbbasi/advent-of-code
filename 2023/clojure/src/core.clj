@@ -3,7 +3,9 @@
             [clojure.string :as string]
             [advent-of-code.day-01]
             [advent-of-code.day-02]
-            [advent-of-code.day-03]))
+            [advent-of-code.day-03]
+            [advent-of-code.day-04]
+            [advent-of-code.day-05]))
 
 (defn read-input
   [path]
@@ -21,4 +23,8 @@
       "d02.p2" (println (advent-of-code.day-02/part-2 (read-input day)))
       "d03.p1" (println (advent-of-code.day-03/part-1 (read-input day)))
       "d03.p2" (println (advent-of-code.day-03/part-2 (read-input day)))
+      "d04.p1" (println (advent-of-code.day-04/part-1 (read-input day)))
+      "d04.p2" (println (advent-of-code.day-04/part-2 (read-input day)))
+      "d05.p1" (println (advent-of-code.day-05/part-1 (read-input day)))
+      "d05.p2" (println (advent-of-code.day-05/part-2 (read-input day)))
       "default")))
