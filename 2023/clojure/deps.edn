@@ -3,7 +3,8 @@
         org.clojure/math.numeric-tower {:mvn/version "0.0.5"}
         org.clojure/math.combinatorics {:mvn/version "0.2.0"}
         cheshire/cheshire {:mvn/version "5.11.0"}
-        ubergraph/ubergraph {:mvn/version "0.8.2"}}
+        ubergraph/ubergraph {:mvn/version "0.8.2"}
+        net.mikera/core.matrix {:mvn/version "0.63.0"}}
  :paths ["src" "inputs"]
  :aliases {:dev {:extra-paths ["test"]}
            ;; clj -X:test-runner
