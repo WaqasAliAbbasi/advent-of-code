@@ -14,3 +14,9 @@
 (defn transpose [m]
   (when-not (nil? m)
     (apply mapv vector m)))
+
+(defn parse-2d-string
+  [input]
+  (->> input
+       (map seq)
+       (mapcat (fn [row xs] (map #(list %2 [row %1]) (range) xs)) (range))))
