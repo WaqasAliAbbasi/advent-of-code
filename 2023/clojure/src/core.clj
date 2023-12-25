@@ -24,7 +24,8 @@
             [advent-of-code.day-21]
             [advent-of-code.day-22]
             [advent-of-code.day-23]
-            [advent-of-code.day-24]))
+            [advent-of-code.day-24]
+            [advent-of-code.day-25]))
 
 (defn read-input
   [path]
@@ -90,4 +91,5 @@
       "d23.p2" (println (advent-of-code.day-23/part-2 (read-input day)))
       "d24.p1" (println (advent-of-code.day-24/part-1 (read-input day)))
       "d24.p2" (println (advent-of-code.day-24/part-2 (read-input day)))
+      "d25.p1" (println (advent-of-code.day-25/part-1 (read-input day)))
       "default")))
